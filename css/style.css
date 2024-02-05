@@ -85,6 +85,23 @@ hr {
   width: 92%;
 }
 
+main img {
+  width: 90%;
+  border: 1px solid #ccc;
+  padding: 0;
+  margin: 0;
+}
+
+main .text {
+  margin-bottom: 20px;
+}
+
+.info-box {
+  width: 95%;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+
 .row {
   display: grid;
   row-gap: 1rem;
@@ -93,6 +110,8 @@ hr {
 .col {
   position: relative;
 }
+
+
 
 .button-home,
 .button-pages,
@@ -104,6 +123,11 @@ hr {
   height: 75px;
   padding: 0;
   border: none;
+}
+
+.title h1 {
+  padding-top: 20px;
+  align-items: center;
 }
 
 .text {
@@ -119,6 +143,14 @@ hr {
   background: #e5e5e5;
   width: 100%;
   height: 350px;
+}
+
+.photo-inside img {
+  height: 348px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .top-text {
@@ -162,7 +194,7 @@ hr {
     grid-template-columns: 1fr 1fr;
   }
   .l-col-2-1 {
-    grid-template-columns: .75fr 1fr;
+    grid-template-columns: 0.9fr 1fr;
   }
   .l-col-3 {
     grid-template-columns: repeat(3, 1fr);
