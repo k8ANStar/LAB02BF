@@ -186,11 +186,6 @@ main .text {
   padding: 0%;
 }
 
-.minions img {
-  width: 4vw;
-  padding:5px 1.5px 5px 1.5px;
-}
-
 .tweet {
   display: flex;
   justify-content: center;
@@ -203,7 +198,7 @@ main .text {
 }
 
 .mail {
-  width: 85%;
+  width: 90%;
 }
 
 .footer-text {
@@ -338,6 +333,23 @@ main .text {
   }
   .l-col-6 {
     grid-template-columns: repeat(6, 1fr);
+  }
+  .minions img {
+    width: 4vw;
+    padding:5px 1.5px 5px 1.5px;
+  }
+  .button-home,
+  .button-pages,
+  .button-blog,
+  .button-porfolio,
+  .button-mail {
+    width: 6.5vw;
+    height: 6.5vw;
+    padding: 0;
+  }
+  .icon-bottom {
+    width: 8vw;
+    margin: 12px;
   }
 }
 
