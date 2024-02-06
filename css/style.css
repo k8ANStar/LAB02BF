@@ -187,8 +187,8 @@ main .text {
 }
 
 .minions img {
-  width: 60px;
-  padding:0;
+  width: 4vw;
+  padding:5px 1.5px 5px 1.5px;
 }
 
 .tweet {
@@ -206,6 +206,66 @@ main .text {
   width: 85%;
 }
 
+.footer-text {
+  font-weight: 450;
+  border-bottom: 2px solid rgb(110, 109, 109);
+}
+
+.triangle {
+  left: -30px;
+
+}
+
+@media screen and (max-width: 40rem) {
+  .main-bottom,
+  header,
+  .footer-top {
+  width: 90vw;
+  align-items: center;
+  margin: auto;
+  }
+  .row {
+    max-width: 90vw;
+  }
+  .s-col-1 {
+    grid-template-columns: 1fr;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .s-col-2 {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+  .minions img {
+    width: 28vw;
+  }
+  main img {
+    width: 90vw;
+  }
+  .button-home,
+  .button-pages,
+  .button-blog,
+  .button-porfolio,
+  .button-mail {
+  margin: 0%;
+  width: 17vw;
+  height: 17vw;
+  padding: 0;
+  border: none;
+  }
+  .icon-bottom {
+    width: 43vw;
+    margin: 10px 1vw 10px 1vw;
+  }
+  .info-box {
+    width: 90vw;
+  }
+  .mail {
+    width: 88vw;
+  }
+}
 
 @media screen and (min-width: 40rem){
   .row {
@@ -229,6 +289,7 @@ main .text {
   .m-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
+
 }
 
 @media screen and (min-width: 64rem){
