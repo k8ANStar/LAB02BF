@@ -36,14 +36,14 @@ footer {
 
 p {
   color: #757575;
-  font-size: 60%;
+  font-size: 65%;
   padding-bottom: 10px;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   padding: 5px;
 }
 
 footer p {
-  font-size: 50%;
+  font-size: 55%;
   color: #fff;
 }
 
@@ -61,7 +61,7 @@ h6 {
 h5 {
   text-align: center;
   padding: 0 3px 0 3px;
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 
 h2 {
@@ -111,8 +111,6 @@ main .text {
   position: relative;
 }
 
-
-
 .button-home,
 .button-pages,
 .button-blog,
@@ -157,6 +155,19 @@ main .text {
   margin-top: 40px;
 }
 
+.icon-image {
+  width: 100px;
+  margin: auto;
+  padding:0;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-bottom {
+  width: 100%;
+  margin: 20px 0 10px 0;
+}
+
 .footer-top {
   display: flex;
   justify-content: center;
@@ -166,7 +177,6 @@ main .text {
 .mrbean {
   width: 45px;
   border-radius: 100%;
-  padding: 10px;
 }
 
 .minions{
@@ -174,14 +184,167 @@ main .text {
   padding: 0%;
 }
 
-.minions img {
-  width: 52px;
-  padding: 5px 2px 5px 2px;
+.tweet {
+  display: flex;
+  justify-content: center;
+}
+
+.twitter {
+  border-radius: 100%;
+  width: 35px;
+  margin: auto;
+}
+
+.mail {
+  width: 90%;
+}
+
+.footer-text {
+  font-weight: 450;
+  border-bottom: 2px solid rgb(110, 109, 109);
+}
+
+.triangle {
+  margin-left: 20px;
+  margin-top: -22px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(110, 109, 109);
+  z-index: -1;
+  padding: 0%;
+  margin-bottom: 10px ;
 }
 
 
+.smaill-icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 40rem) {
+  .main-bottom,
+  header,
+  .footer-top {
+  width: 90vw;
+  align-items: center;
+  margin: auto;
+  }
+  .row {
+    max-width: 90vw;
+  }
+  .s-col-1 {
+    grid-template-columns: 1fr;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .s-col-2 {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+  .s-col-5 {
+    grid-template-columns: repeat(5,1fr);
+  }
+  .minions img {
+    width: 28vw;
+  }
+  main img {
+    width: 90vw;
+  }
+  .button-home,
+  .button-pages,
+  .button-blog,
+  .button-porfolio,
+  .button-mail {
+    width: 17vw;
+    height: 17vw;
+    padding: 0;
+  }
+  .icon-bottom {
+    width: 43vw;
+    margin: 10px 1vw 10px 1vw;
+  }
+  .info-box {
+    width: 90vw;
+  }
+  .mail {
+    width: 88vw;
+  }
+  .footer-icon {
+    width: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .share-icon {
+    background-color: rgb(255, 208, 0);
+    width: 20px;
+    padding: 5px;
+  }
+  .photo-inside {
+    height: 250px;
+  }
+  .photo-inside img {
+    width: 100vw;
+    height: 248px;
+  }
+}
+
 @media screen and (min-width: 40rem){
+  .row {
+    margin: auto;
+    max-width: 60vw;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
+  .m-col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .m-col-2-1 {
+    grid-template-columns: 0.4fr 1fr;
+  }
+  .m-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .m-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .m-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .icon-bottom {
+    width: 8vw;
+    margin: 10px 0 10px;
+  }
+  .minions img {
+    width: 5vw;
+  }
+  .button-home,
+  .button-pages,
+  .button-blog,
+  .button-porfolio,
+  .button-mail {
+    width: 7vw;
+    height: 7vw;
+    padding: 0;
+  }
+  h1 {
+    margin: 5px;
+  }
+  .footer-icon {
+    width: 20px;
+    margin: 0;
+    padding: 0;
+  }
   
+  .share-icon {
+    background-color: rgb(255, 208, 0);
+    width: 10px;
+    padding: 5px;
+  }
 }
 
 @media screen and (min-width: 64rem){
@@ -194,7 +357,7 @@ main .text {
     grid-template-columns: 1fr 1fr;
   }
   .l-col-2-1 {
-    grid-template-columns: 0.9fr 1fr;
+    grid-template-columns: 0.7fr 1fr;
   }
   .l-col-3 {
     grid-template-columns: repeat(3, 1fr);
@@ -207,6 +370,34 @@ main .text {
   }
   .l-col-6 {
     grid-template-columns: repeat(6, 1fr);
+  }
+  .minions img {
+    width: 4vw;
+    padding:5px 1.5px 5px 1.5px;
+  }
+  .button-home,
+  .button-pages,
+  .button-blog,
+  .button-porfolio,
+  .button-mail {
+    width: 6.5vw;
+    height: 6.5vw;
+    padding: 0;
+  }
+  .icon-bottom {
+    width: 8vw;
+    margin: 12px;
+  }
+  .footer-icon {
+    width: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .share-icon {
+    background-color: rgb(255, 208, 0);
+    width: 20px;
+    padding: 5px;
   }
 }
 
