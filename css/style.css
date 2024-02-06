@@ -111,8 +111,6 @@ main .text {
   position: relative;
 }
 
-
-
 .button-home,
 .button-pages,
 .button-blog,
@@ -193,7 +191,7 @@ main .text {
 
 .twitter {
   border-radius: 100%;
-  width: 50px;
+  width: 35px;
   margin: auto;
 }
 
@@ -216,6 +214,14 @@ main .text {
   border-top: 10px solid rgb(110, 109, 109);
   z-index: -1;
   padding: 0%;
+  margin-bottom: 10px ;
+}
+
+
+.smaill-icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 40rem) {
@@ -239,6 +245,9 @@ main .text {
   .s-col-2 {
     grid-template-columns: 1fr 1fr;
     margin: auto;
+  }
+  .s-col-5 {
+    grid-template-columns: repeat(5,1fr);
   }
   .minions img {
     width: 28vw;
@@ -264,6 +273,23 @@ main .text {
   }
   .mail {
     width: 88vw;
+  }
+  .footer-icon {
+    width: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .share-icon {
+    background-color: rgb(255, 208, 0);
+    width: 20px;
+    padding: 5px;
+  }
+  .photo-inside {
+    height: 250px;
+  }
+  .photo-inside img {
+    width: 100vw;
+    height: 248px;
   }
 }
 
@@ -294,7 +320,7 @@ main .text {
     margin: 10px 0 10px;
   }
   .minions img {
-    width: 8vw;
+    width: 5vw;
   }
   .button-home,
   .button-pages,
@@ -307,6 +333,17 @@ main .text {
   }
   h1 {
     margin: 5px;
+  }
+  .footer-icon {
+    width: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .share-icon {
+    background-color: rgb(255, 208, 0);
+    width: 10px;
+    padding: 5px;
   }
 }
 
@@ -350,6 +387,17 @@ main .text {
   .icon-bottom {
     width: 8vw;
     margin: 12px;
+  }
+  .footer-icon {
+    width: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .share-icon {
+    background-color: rgb(255, 208, 0);
+    width: 20px;
+    padding: 5px;
   }
 }
 
