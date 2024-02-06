@@ -212,8 +212,15 @@ main .text {
 }
 
 .triangle {
-  left: -30px;
-
+  margin-left: 20px;
+  margin-top: -22px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(110, 109, 109);
+  z-index: -1;
+  padding: 0%;
 }
 
 @media screen and (max-width: 40rem) {
