@@ -249,11 +249,9 @@ main .text {
   .button-blog,
   .button-porfolio,
   .button-mail {
-  margin: 0%;
-  width: 17vw;
-  height: 17vw;
-  padding: 0;
-  border: none;
+    width: 17vw;
+    height: 17vw;
+    padding: 0;
   }
   .icon-bottom {
     width: 43vw;
@@ -278,7 +276,7 @@ main .text {
     grid-template-columns: 1fr 1fr;
   }
   .m-col-2-1 {
-    grid-template-columns: 0.75fr 1fr;
+    grid-template-columns: 0.4fr 1fr;
   }
   .m-col-3 {
     grid-template-columns: repeat(3, 1fr);
@@ -289,7 +287,25 @@ main .text {
   .m-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
-
+  .icon-bottom {
+    width: 8vw;
+    margin: 10px 0 10px;
+  }
+  .minions img {
+    width: 8vw;
+  }
+  .button-home,
+  .button-pages,
+  .button-blog,
+  .button-porfolio,
+  .button-mail {
+    width: 7vw;
+    height: 7vw;
+    padding: 0;
+  }
+  h1 {
+    margin: 5px;
+  }
 }
 
 @media screen and (min-width: 64rem){
