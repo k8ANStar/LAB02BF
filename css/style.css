@@ -36,14 +36,14 @@ footer {
 
 p {
   color: #757575;
-  font-size: 60%;
+  font-size: 65%;
   padding-bottom: 10px;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   padding: 5px;
 }
 
 footer p {
-  font-size: 50%;
+  font-size: 55%;
   color: #fff;
 }
 
@@ -61,7 +61,7 @@ h6 {
 h5 {
   text-align: center;
   padding: 0 3px 0 3px;
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 
 h2 {
@@ -157,6 +157,19 @@ main .text {
   margin-top: 40px;
 }
 
+.icon-image {
+  width: 100px;
+  margin: auto;
+  padding:0;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-bottom {
+  width: 100%;
+  margin: 20px 0 10px 0;
+}
+
 .footer-top {
   display: flex;
   justify-content: center;
@@ -166,7 +179,6 @@ main .text {
 .mrbean {
   width: 45px;
   border-radius: 100%;
-  padding: 10px;
 }
 
 .minions{
@@ -175,13 +187,48 @@ main .text {
 }
 
 .minions img {
-  width: 52px;
-  padding: 5px 2px 5px 2px;
+  width: 60px;
+  padding:0;
+}
+
+.tweet {
+  display: flex;
+  justify-content: center;
+}
+
+.twitter {
+  border-radius: 100%;
+  width: 50px;
+  margin: auto;
+}
+
+.mail {
+  width: 85%;
 }
 
 
 @media screen and (min-width: 40rem){
-  
+  .row {
+    margin: auto;
+    max-width: 60vw;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
+  .m-col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .m-col-2-1 {
+    grid-template-columns: 0.75fr 1fr;
+  }
+  .m-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .m-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .m-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 @media screen and (min-width: 64rem){
@@ -194,7 +241,7 @@ main .text {
     grid-template-columns: 1fr 1fr;
   }
   .l-col-2-1 {
-    grid-template-columns: 0.9fr 1fr;
+    grid-template-columns: 0.7fr 1fr;
   }
   .l-col-3 {
     grid-template-columns: repeat(3, 1fr);
