@@ -182,7 +182,7 @@ main .text {
 }
 
 .icon-image {
-  width: 100px;
+  width: 6.25rem;
   margin: auto;
   padding: 0;
   display: flex;
@@ -191,17 +191,17 @@ main .text {
 
 .icon-bottom {
   width: 100%;
-  margin: 20px 0 10px 0;
+  margin: 1.25rem 0 6.25rem 0;
 }
 
 .footer-top {
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  padding-top: 0.938rem;
 }
 
 .mrbean {
-  width: 45px;
+  width: 2.813rem;
   border-radius: 100%;
 }
 
@@ -217,7 +217,7 @@ main .text {
 
 .twitter {
   border-radius: 100%;
-  width: 35px;
+  width: 2.188rem;
   margin: auto;
 }
 
@@ -227,20 +227,20 @@ main .text {
 
 .footer-text {
   font-weight: 450;
-  border-bottom: 2px solid rgb(110, 109, 109);
+  border-bottom: 0.125rem solid rgb(110, 109, 109);
 }
 
 .triangle {
-  margin-left: 20px;
-  margin-top: -22px;
+  margin-left: 1.25rem;
+  margin-top: -1.375rem;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid rgb(110, 109, 109);
+  border-left: 0.625rem solid transparent;
+  border-right: 0.625rem solid transparent;
+  border-top: 0.625rem solid rgb(110, 109, 109);
   z-index: -1;
   padding: 0%;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .smaill-icon {
@@ -250,19 +250,19 @@ main .text {
 }
 
 .banner {
-  padding: 10px 35px 10px 25px;
-  border: 0.5px solid rgb(0, 0, 0, 0.2);
+  padding: 0.625rem 2.188rem 0.625rem 1.563rem;
+  border: 0.031rem solid rgb(0, 0, 0, 0.2);
   background-color: rgb(255, 255, 255, 0.8);
   display: block;
-  margin: 0.5px;
+  margin: 0.031rem;
 }
 
 .banner-button {
   display: block;
   position: relative;
   z-index: 1;
-  top: -10rem;
-  right: -15rem;
+  top: -0.625rem;
+  right: -0.938rem;
 }
 
 @media screen and (max-width: 39.9375em) {
