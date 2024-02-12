@@ -432,7 +432,7 @@ main .text {
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .icon-bottom {
     width: 8vw;
-    margin: 10px 0 10px;
+    margin: 0.625rem 0 0.625rem;
   }
   .minions img {
     width: 4rem;
@@ -464,7 +464,7 @@ main .text {
   }
   .bottom-line {
     max-width: 30vw;
-    max-height: 30px;
+    max-height: 1.875rem;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -472,7 +472,7 @@ main .text {
     margin-right: 25vw;
     margin-top: 1rem;
     margin-bottom: 0;
-    border: 1px solid rgb(255, 255, 255, 0.4);
+    border: 0.063rem solid rgb(255, 255, 255, 0.4);
   }
   .bottom-line-green {
     width: 6vw;
@@ -558,7 +558,7 @@ main .text {
   }
   .icon-bottom {
     width: 10rem;
-    margin: 12px;
+    margin: 0.75rem;
   }
   .footer-icon {
     width: 2.7rem;
@@ -582,7 +582,7 @@ main .text {
   }
   .bottom-line {
     max-width: 20vw;
-    max-height: 30px;
+    max-height: 1.875rem;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -590,7 +590,7 @@ main .text {
     margin-right: 20vw;
     margin-top: 2rem;
     margin-bottom: 0;
-    border: 1px solid rgb(255, 255, 255, 0.4);
+    border: 0.063rem solid rgb(255, 255, 255, 0.4);
   }
   .bottom-line-green {
     width: 4vw;
@@ -645,7 +645,7 @@ main .text {
   }
   .icon-bottom {
     width: 8vw;
-    margin: 12px;
+    margin: 0.75rem;
   }
   .footer-icon {
     width: 1.5rem;
@@ -685,9 +685,9 @@ main .text {
 
 hr {
   display: block;
-  height: 1px;
+  height: 0.063rem;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 0.063rem solid #ccc;
   margin: 1em 0;
   padding: 0;
 }
@@ -754,13 +754,13 @@ textarea {
 .visually-hidden {
   border: 0;
   clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
+  height: 0.063rem;
+  margin: -0.063rem;
   overflow: hidden;
   padding: 0;
   position: absolute;
   white-space: nowrap;
-  width: 1px;
+  width: 0.063rem;
   /* 1 */
 }
 
@@ -868,7 +868,7 @@ textarea {
 
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 0.063rem solid #999;
     page-break-inside: avoid;
   }
 
