@@ -87,25 +87,25 @@ a:visited {
 }
 
 hr {
-  padding: 0 5px 0 5px;
+  padding: 0 0.313rem 0 0.313rem;
   width: 92%;
 }
 
 main img {
   width: 90%;
-  border: 1px solid #ccc;
+  border: 0.063rem solid #ccc;
   padding: 0;
   margin: 0;
 }
 
 main .text {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .info-box {
   width: 95%;
-  height: 200px;
-  border: 1px solid #ccc;
+  height: 12.5rem;
+  border: 0.063rem solid #ccc;
 }
 
 .row {
@@ -123,8 +123,8 @@ main .text {
 .button-porfolio,
 .button-mail {
   margin: 0%;
-  width: 75px;
-  height: 75px;
+  width: 4.688rem;
+  height: 4.688rem;
   padding: 0;
   border: none;
 }
@@ -150,7 +150,7 @@ main .text {
 }
 
 .title h1 {
-  padding-top: 20px;
+  padding-top: 1.25rem;
   align-items: center;
 }
 
@@ -166,11 +166,11 @@ main .text {
 .photo-inside {
   background: #e5e5e5;
   width: 100%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .photo-inside img {
-  height: 348px;
+  height: 21.75rem;
   width: 60%;
   margin: auto;
   display: flex;
