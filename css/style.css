@@ -277,7 +277,7 @@ main .text {
     max-width: 60vw;
   }
   .triangle {
-    margin-top: -25px;
+    margin-top: -1.563rem;
   }
   .s-col-1 {
     grid-template-columns: 1fr;
@@ -295,7 +295,7 @@ main .text {
   }
   .icon-bottom {
     width: 29vw;
-    margin: 10px 1vw 10px 1vw;
+    margin: 0.625rem 1vw 0.625rem 1vw;
   }
   .icon-image {
     width: 10vw;
@@ -307,17 +307,17 @@ main .text {
     width: 88vw;
   }
   .footer-icon {
-    width: 30px;
+    width: 1.875rem;
     margin: 0;
     padding: 0;
   }
   .share-icon {
     background-color: rgb(255, 208, 0);
-    width: 20px;
-    padding: 5px;
+    width: 1.25rem;
+    padding: 0.313rem;
   }
   .mrbean {
-    width: 55px;
+    width: 3.438rem;
   }
   .small-screen {
     display: flex;
@@ -328,14 +328,14 @@ main .text {
     padding-top: 0;
   }
   .small-screen div {
-    margin-left: 5px;
+    margin-left: 0.313rem;
   }
   footer {
     padding-bottom: 0%;
   }
   .bottom-line {
     max-width: 60vw;
-    max-height: 30px;
+    max-height: 1.875rem;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -343,7 +343,7 @@ main .text {
     margin-right: auto;
     margin-top: 1rem;
     margin-bottom: 0;
-    border: 1px solid rgb(255, 255, 255, 0.4);
+    border: 0.063rem solid rgb(255, 255, 255, 0.4);
   }
   .bottom-line-green {
     width: 12vw;
